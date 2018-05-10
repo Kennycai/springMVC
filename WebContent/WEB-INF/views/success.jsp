@@ -8,5 +8,14 @@
 </head>
 <body>
 hello!
+
+<br>
+names:${requestScope.names }
+
+<br>
+user:${requestScope.user }
+
+<br>
+user:${sessionScope.user }
 </body>
 </html>

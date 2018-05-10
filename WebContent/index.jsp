@@ -4,9 +4,25 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>SpringMVC</title>
 </head>
 <body>
+
+<a href="testSessionMap">testSessionMap</a>
+<br>
+
+<a href="testMap">testMap</a>
+<br>
+
+<form action="testPojo" method="post">
+	<input type="text" name="user" value="cky"/>
+	<input type="text" name="password" value="123456"/>
+	<input type="hidden" name="id" value="1"/>
+	<input type="text" name="address.city" value="dg"/>
+	<input type="submit" value="submit"/>
+</form>
+<br>
+
 <form action="helloWorld" method="post">
 	<button type="submit">submit</button>
 </form>
